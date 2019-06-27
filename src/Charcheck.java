@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class Charcheck
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         int i;
         //Ask user to enter a string
         System.out.print("Enter a string : ");
@@ -11,7 +10,6 @@ public class Charcheck
         String Stringinput = scanner.nextLine();
         //Call consonantvowelcheck method
         consonantvowelcheck(Stringinput);
-
     }
     public static void consonantvowelcheck(String inputString)
     {

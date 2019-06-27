@@ -7,9 +7,9 @@ public class Sorting {
         System.out.println("Enter a number");
         Scanner sc=new Scanner(System.in);
         int inputvalue=sc.nextInt();
-        sum_decreasingnumbers(inputvalue);
+        sumdecreasingnumbers(inputvalue);
     }
-    public static void sum_decreasingnumbers(int input)
+    public static void sumdecreasingnumbers(int input)
     {
         int sumOfEven = 0;
         int len = Integer.toString(input).length();

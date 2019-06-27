@@ -11,8 +11,6 @@
             original = in.nextLine();
             //Call reverseofstring method
             ReverseofString(original);
-
-
         }
         public static void ReverseofString(String original)
         {
